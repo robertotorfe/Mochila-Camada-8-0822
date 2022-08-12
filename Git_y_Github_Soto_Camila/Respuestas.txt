@@ -1,0 +1,3 @@
+Respuesta 1: Git  fue creado originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo Linux,  en 2005 decidió crear un nuevo gestor de control de versiones para su sistema, y que diera soporte a su core.
+Respuesta 2: pertenece actualmente a Microsoft para contribuir con el codigo libre. 
+Respuesta 3: Si, con la interfaz grafica de GIT. 

@@ -1,0 +1,26 @@
+COMANDOS GIT 
+Subir cambios a la rama 
+ 
+Git branch 	Verificar SIEMPRE la rama donde estoy ubicada 
+Git remote 	¿? 
+Git pull 	Se utiliza para bajar lo cambios SIEMPRE 
+Git status 	Verificar que los cambios que se van subir son los que yo modifique 
+Git add . 	Subir lo cambios 
+Git commit -m “Aquí va el comentario” 	Confirmar cambios con su respectivo comentario
+Ejemplo: "Finish Consulta_consolidado_inversiones,Consulta_consolidado_prestamos, Consulta_consolidado_productos_dda" 
+Al final debe decir la cantidad de archivos modificados: 
+Ejemplo: 3 files changed, 9 insertions(+), 9 deletions(-) 
+Git push origin rama 	Subir cambios al repositorio en mi rama 
+Ejemplo: git push origin feature/estabilizacionLady 
+Enviar la url también se puede a pull request preguntar primero 
+ 
+Cambiar de rama 
+ 
+Git fetch 	Actualiza las ramas que están en la nube a mi local 
+Git branch 	Muestra la rama donde estoy ubicada 
+Git branch -a 	Muestra todas las ramas 
+Git checkout rama 	Ejemplo: git checkout ***/*********
+ 
+Verificar el detallle de lo subido luego de dar el comando git commit -m 
+ 
+Git log -p -2 	Verificar el detalle de todas la modificicaciones desde el log 

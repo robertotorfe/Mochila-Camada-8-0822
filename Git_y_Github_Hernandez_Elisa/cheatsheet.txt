@@ -1,0 +1,36 @@
+Recordatorio de los comandos más utilizados hasta el momento:
+
+git add - Agrega archivos a nuestro repositorio
+git add "practica1.txt"
+----------------------------------------------------------
+git add . - Agrega todos los archivos presentes en el repositorio
+git add . 
+----------------------------------------------------------
+git status - Dice el estado de los archivos y el estado de los mismos respecto al repositorio
+git status
+----------------------------------------------------------
+git commit -m  -  Nos permiten agregar una nota que identifique el estado del proyecto hasta un momento
+                  especifico y a su vez volver sobre los mismos si asi quisieras.
+git commit -m "Esta es una nota"
+----------------------------------------------------------
+git log - va a registrar el historial de nuestros cambios en los proyectos, es decir el historial de nuestros commits. 
+git log
+----------------------------------------------------------
+git checkout - Se usa para movernos al commit que deseamos o para moverse de una rama a otra. 
+git checkout 9d4d1c1261713f2592f67f557d1015b3c49cb856 (al commit)
+git checkout nombre_rama (Para movernos a la rama que deseamos)
+----------------------------------------------------------
+git remote -v - Indica al repositorio local con que repositorio remoto se debera sincronizar. 
+git remote 
+-----------------------------------------------------------
+git push - Envia los archivos que tengo en mi repositorio local al repositorio remoto. 
+git push origin main 
+-----------------------------------------------------------
+git clone- Permite crear una copia exacta en la computadora, de todos los archivos existentes en un
+           repositorio remoto.
+git clone (url exacta en la que se encuentran publicados los archivos)
+-----------------------------------------------------------
+git pull - No descarga nuevamente todos los archivos, si no que solo bajara y actualizara aquellos archivos
+           que hayan sufrido alguna modificacion o sean nuevos.
+git pull origin main
+............................................................

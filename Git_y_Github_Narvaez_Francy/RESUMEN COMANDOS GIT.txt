@@ -1,0 +1,59 @@
+RESUMEN DE COMANDOS
+1. CONFIGURAR CORREO Y USUARIO
+	* git config --global user.name 'nombredelusuario'
+	* git config --global user.email 'correo'
+2. VERIFICA SI QUEDO CONFIGURADO CORREO O EMAIL
+	* git config --global user.email
+	* git config --global user.name
+
+3.CLONAR
+	3.1 CLONAL MASTER
+	  * git clone <url>
+
+	3.1. CLONAR DESDE UNA RAMA
+	  * git clone --branch <nombreRama> <urlrama>
+
+4.CREAR RAMA
+	* git checkout -b <nombreRama>
+
+5. VERIFICAR LAS RAMAS HAY
+	* git branch
+
+6. MOVERSE ENTRE RAMAS 
+	* git checkout <RamadondeseDirige>
+
+7. PROCESO PARA SUBIR CAMBIOS
+	7.1 ADICIONAR
+	* git add.
+
+	7.2 SEGUIMIENTO(ROJO: no se han subido VERDE: listos para subirse, verificar despues del commit)
+	* git status
+
+	7.3 COMENTARIO=> COMMIT
+	* git commit -m "comentario de commit"
+
+	7.4 SUBIR AL REPOSITORIO
+		7.4.1  A LA MASTER
+		* git push origin master
+
+		7.4.2 A UNA RAMA
+		* git push origin <nombreRama>
+
+7. VER CAMBIOS
+	* git log
+
+8. ACTUALIZAR REPOSITORIO
+	* git pull origin <NombreRama>
+
+9. UNIR CAMBIOS A UNA RAMA(MERGE): desde a rama que se encuentra ubicado, se unen los cambios de la rama que se quiere unir los cambios, merge <nombreRama>
+	* git merge <nombreRama> 
+
+10. DESHACER CAMBIOS
+	* gi merge --abort
+
+11. URL DEL REPOSITORIO
+	* git remote -v
+
+12. CAMBIAR URL DEL REPOSITORIO REMOTO
+	* git remote set-url origin <copiar direccion actual>
+	ejemplo:  git remote set-url origin http://192.168.21.61/front-end/autorizaciones-front-end.git

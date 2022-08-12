@@ -1,0 +1,28 @@
+git clone <https://link-con-nombre-del-repositorio> ----> Sirve para clonar un repositorio en local
+
+git branch <nombre-de-la-rama>  ----------->   Crear una rama Nueva
+
+
+git push <nombre-remoto> <nombre-rama>    ------> Sube los cambios de una rama al remoto
+
+
+git checkout <nombre-de-la-rama>    ---------> Cambiar de una rama a otra
+
+
+git status       ------->   Da informacion sobre la rama actual
+
+
+git add <archivo>   -------->    Agrega los archivos antes de hacer commit
+
+
+git commit -m "mensaje de confirmación"      ------->    git commit es como establecer un punto de control en el proceso de desarrollo al cual puedes volver más tarde si es necesario.
+
+
+git push <nombre-remoto> <nombre-de-tu-rama>   ------>    Git push envía tus commits al repositorio remoto.
+
+
+git pull <nombre-remoto>   ------> descarga los cambios del repositorio
+
+ 
+git merge <nombre-de-la-rama>    ----> cobina los cambios de dos ramas
+

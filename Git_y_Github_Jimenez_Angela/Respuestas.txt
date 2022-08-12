@@ -1,0 +1,8 @@
+¿Quién inventó el sistema de controsl de versión GIT y por qué?
+Git es un proyecto de código abieto maduro y con mantenimientod activo que desarrolló originalmente Linus Torvalds, creados del sistema linux.
+Se creo para posibilitar la ramificación y el etiquetado de procesos.
+
+¿A quién pertenece actualmente Github y por qué?
+En 2018 (4 de junio de 2018 - 26 de octubre 2018), Microsoft anunció y compró respectivamente la compañía por un importe de más de 7000 millones de dólares4​.
+
+¿Hay otra forma que no sea la terminal para trabajar con Github?

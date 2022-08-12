@@ -1,0 +1,7 @@
+git init: Crea un repositorio local 
+git config user.name "nombre" y git config user.email "email" : con estos dos comandos mi repositorio me identifica, sabe quien soy, si deseo que todos los repositorios que tenga en mi computador me reconozcan debo ejercutar el código así: git config --global user.name "nombre" y git config --global user.email "email"
+git add: Agregar archivos al repositorio
+git status: Dar seguimiento a los archivos del repositorio
+git commit -m "nombre del commit": Crear commits
+git log: Registra un historial de los cambios de los proyectos (historial de commits)
+git remote add origin "URL del repositorio": 

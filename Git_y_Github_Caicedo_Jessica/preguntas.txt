@@ -1,0 +1,6 @@
+¿Quién inventó el sistema de control de versión Git y por qué?
+RTA: fue creado originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo Linux,  en 2005 decidió crear un nuevo gestor de control de versiones para su sistema, y que diera soporte a su core.
+¿A quién pertenece actualmente Github y por qué?
+RTA: pertenece actualmente a Microsoft para contribuir con el codigo libre.
+¿Hay otra forma que no sea la terminal para trabajar con Github?
+RTA:Si, con la interfaz grafica de GIT.

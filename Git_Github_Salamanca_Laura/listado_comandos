@@ -1,0 +1,9 @@
+git init	..> crear repositorio
+git config user.name "nombre.Usuario"	--> agregar nuestra identidad
+git config user.email "emailUsuario"	--> agregar nuestro correo
+git remote add origin http://…	--> apunta al repositorio remoto
+git add . 	--> agregar todos los archivos
+git commit -m "mensaje"	--> comitea todos los cambios hechos
+git push origin main	-->envia los cambios al repositorio remoto
+git status	--> realiza seguimiento de los estados de archivos
+git pull	--> descarga los cambios realizados en el repositorio remoto

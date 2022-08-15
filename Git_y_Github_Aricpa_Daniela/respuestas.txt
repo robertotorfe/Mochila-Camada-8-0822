@@ -1,0 +1,16 @@
+a.	¿Quién inventó el sistema de control de versión Git y por qué?
+
+El núcleo de Linux es un proyecto de software de código abierto con un alcance bastante grande. Durante la mayor parte del mantenimiento del núcleo de Linux (1991-2002), los cambios en el software se pasaron en forma de parches y archivos. En 2002, el proyecto del núcleo de Linux empezó a usar un DVCS propietario llamado BitKeeper.
+En 2005, la relación entre la comunidad que desarrollaba el núcleo de Linux y la compañía que desarrollaba BitKeeper se vino abajo, y la herramienta dejó de ser gratuita. Esto impulsó a la comunidad de desarrollo de Linux (y en particular a Linus Torvalds, el creador de Linux) a desarrollar su propia herramienta basada en algunas de las lecciones que aprendieron durante el uso de BitKeeper. Algunos de los objetivos del nuevo sistema fueron los siguientes:
+•	Velocidad
+•	Diseño sencillo
+•	Fuerte apoyo al desarrollo no lineal (miles de ramas paralelas)
+•	Completamente distribuido
+•	Capaz de manejar grandes proyectos como el núcleo de Linux de manera eficiente (velocidad y tamaño de los datos)
+
+b.	¿A quién pertenece actualmente Github y por qué?
+
+Microsoft compro GitHub por 7.500 millones de dólares. Desde el nombramiento de Satya Nadella como CEO de Microsoft (sustituyendo al infame Steve Ballmer), la compañía ha adoptado una estrategia nueva, mucho más abierta al mundo del software libre y a la integración con otras plataformas y servicios.
+c.	¿Hay otra forma que no sea la terminal para trabajar con Github?
+
+Si hay otra forma que no sea la terminal para trabajar con Github y es a través de la descarga de su aplicación directamente en el computador.

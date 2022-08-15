@@ -5,4 +5,5 @@ Se creo para posibilitar la ramificación y el etiquetado de procesos.
 ¿A quién pertenece actualmente Github y por qué?
 En 2018 (4 de junio de 2018 - 26 de octubre 2018), Microsoft anunció y compró respectivamente la compañía por un importe de más de 7000 millones de dólares4​.
 
-¿Hay otra forma que no sea la terminal para trabajar con Github?
+¿Hay otra forma que no sea la terminal para trabajar con Github?}
+Sí, se puede instalar Github set up, allí se podrán ingresar los archivos sin necesidad de código.

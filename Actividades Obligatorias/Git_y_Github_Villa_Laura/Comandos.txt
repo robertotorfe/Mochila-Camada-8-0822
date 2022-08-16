@@ -1,0 +1,27 @@
+Comando	Comentario
+git help	Ayuda, da el detalle de los comandos de git
+"Git config -global user.name ""nombre de usuario"""	Se crea el usuario de git 
+Git config -global user.email email@gmail.com	Se crea el correo del usuario de git
+git init	crea el repositorio
+git --version	nos indica la version que tenemos de git
+archivo*	trae todos los archivos con nombre similar
+*.pdf	trae todos los archivos con extension pdf
+*.*	trae todos los archivos
+git add .	agrega todos los archivos
+git status	Muestra el estado de los archivos
+touch achivo	crea archivo llamado archivo
+git config 	muestra las configuraciones
+git log	muestra los commit
+git log - ruta del archivo	muestra el historial de un archivo especifico
+git branch -M main	Cambia el nombre de a rama
+git Push origin main	Carga la informacion al repositorio
+git clone http://github.com/laurisvilla	clona el repositorio
+git remote -v	muestra la conexion activa
+git pull origin main	Descarga los cambios del repo
+git remote add origin http:/	apunta al repositorio
+git rm archivo	se elimina archivo
+git rm -r directorio	remueve directorio y archivos que contiene
+git checkout -b Rama	
+git remote add origin git@github.com minombre/archivo git	enlaza repositorio local con repositorio remoto
+git remote rm nombre_git	desvincula repositorio remoto
+	

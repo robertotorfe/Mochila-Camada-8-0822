@@ -1,0 +1,17 @@
+$ mkdir [Carpeta]: Crea una nueva directorio o carpeta
+$ touch[Nombre del archivo]: Crea un nuevo archivo
+$ ls: Lista archivos en el directorio o carpeta
+$ ls -a: Lista todos los archivos, incluyendo los archivos ocultos
+$ pwd: Muestra la carpeta en la que se está trabajando actualmente
+$ rmdir[Nombre de la carpeta]: Elimina una carpeta vacía
+$ mv [ruta/archivo1] [ruta/archivo2]: Renombra archivos (archivo2 no debe existir o será sobreescrito)
+$ cd ..: Sube un nivel de carpeta
+git init: Crea el repositoriogit init 
+git config user.name "nombreUsuario" :Agrega nuestra identidad
+git config user.email "emailUsuario" : Agrega nuestro e-mail
+git remote add origin http://... : Apunta al repositorio remoto
+git add . :Agrega todos los archivos
+git commit -m "mensaje": Commitea los cambios hechos
+git push origin master :Envía los cambios al repositorio remoto
+git status: Realiza un seguimiento de los estados de los archivos
+git pull:Descarga los cambios que existen en el repositorio remoto

@@ -1,0 +1,144 @@
+1.	git init 
+creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual:
+git init
+
+2.	git config 
+puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. 
+
+git config --global user.email tuemail@ejemplo.com
+git config --global user.name “nombre de usuario”
+
+3.	git clone
+Git clone básicamente realiza una copia idéntica de la última versión de un proyecto en un repositorio y la guarda en tu ordenador.
+git clone <https://link-con-nombre-del-repositorio>
+
+4.	git Branch
+Usando ramas, varios desarrolladores pueden trabajar en paralelo en el mismo proyecto simultáneamente. Podemos usar el comando git branch para crearlas, listarlas y eliminarlas.
+git branch <nombre-de-la-rama>
+
+
+
+
+5.	 git checkout
+Para trabajar en una rama, primero tienes que cambiarte a ella. Usaremos git checkout principalmente para cambiarte de una rama a otra. También lo podemos usar para chequear archivos y commits.
+
+git checkout <nombre-de-la-rama>
+
+6.	git status
+El comando de git status nos da toda la información necesaria sobre la rama actual.
+git status
+
+7.	 git add
+Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden en local y no se incluirán en el siguiente commit (a menos que cambiemos la configuración).
+git add <archivo>
+
+8.	 git commit
+Este sea quizás el comando más utilizado de Git. Una vez que se llega a cierto punto en el desarrollo, queremos guardar nuestros cambios (quizás después de una tarea o asunto específico).  
+Git commit es como establecer un punto de control en el proceso de desarrollo al cual puedes volver más tarde si es necesario.
+También necesitamos escribir un mensaje corto para explicar qué hemos desarrollado o modificado en el código fuente.
+Importante: Git commit guarda tus cambios únicamente en local.
+git commit -m "mensaje de confirmación"
+
+9.	 Git push
+Después de haber confirmado tus cambios, el siguiente paso que quieres dar es enviar tus cambios al servidor remoto. Git push envía tus commits al repositorio remoto.
+Importante: Git push solamente carga los cambios que han sido confirmados.
+git push <nombre-remoto> <nombre-de-tu-rama>
+
+10.	 git pull
+El comando git pull se utiliza para recibir actualizaciones del repositorio remoto. Este comando es una combinación del git fetch y del git merge lo cual significa que cundo usemos el git pull recogeremos actualizaciones del repositorio remoto (git fetch) e inmediatamente aplicamos estos últimos cambios en local (git merge).
+
+Esta operación puede generar conflictos que tengamos que resolver manualmente.
+
+git pull <nombre-remoto>
+
+11.	git revert
+A veces, necesitaremos deshacer los cambios que hemos hecho. Hay varias maneras para deshacer nuestros cambios en local y/o en remoto (dependiendo de lo que necesitemos), pero necesitaremos utilizar cuidadosamente estos comandos para evitar borrados no deseados.
+Una manera segura para deshacer nuestras commits es utilizar git revert. Para ver nuestro historial de commits, primero necesitamos utilizar el  git log -- oneline:
+
+ histórico de git en mi rama master
+
+Entonces, solo necesitamos especificar el código de comprobación que encontrarás junto al commit que queremos deshacer:
+
+git revert 3321844
+
+shift + q para salir de la pantalla que arroja.
+
+12.	git merge
+
+Cuando ya hayas completado el desarrollo de tu proyecto en tu rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge.
+
+Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master).  Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar  con tu rama de características.
+Por ejemplo, cuando quieres fusionar tu rama de características en la rama dev:
+Primero, debes cambiarte a la rama dev:
+git checkout dev
+git fetch
+git merge <nombre-de-la-rama>
+
+13.	git diff 
+se usa para hacer una lista de conflictos. Para poder ver conflictos con respecto al archivo base, usa:
+git diff --base <file-name>
+•	El siguiente comando se usa para ver los conflictos que hay entre ramas antes de fusionarlas:
+git diff <source-branch> <target-branch>
+•	Para ver una lista de todos los conflictos presentes usa:
+git diff
+14.	git tag 
+marca commits específicos. Los desarrolladores lo usan para marcar puntos de lanzamiento como v1.0 y v2.0.
+git tag 1.1.0 <instert-commitID-here>
+15.	git log 
+se usa para ver el historial del repositorio listando ciertos detalles de la confirmación. Al ejecutar el comando se obtiene una salida como ésta:
+commit 15f4b6c44b3c8344caasdac9e4be13246e21sadw
+Author: Alex Hunter <alexh@gmail.com>
+Date:   Mon Oct 1 12:56:29 2016 -0600
+
+16.	git reset 
+sirve para resetear el index y el directorio de trabajo al último estado de confirmación.
+
+.git reset - -hard HEAD
+17.	git rm 
+se puede usar para remover archivos del index y del directorio de trabajo.
+git rm filename.txt
+18.	git stash 
+guardará momentáneamente los cambios que no están listos para ser confirmados. De esta manera, puedes volver al proyecto más tarde.
+git stash
+19.	git show
+ se usa para mostrar información sobre cualquier objeto git.
+git show
+20.	git fetch 
+le permite al usuario buscar todos los objetos de un repositorio remoto que actualmente no se encuentran en el directorio de trabajo local.
+git fetch origin
+21.	git ls-tree 
+te permite ver un objeto de árbol junto con el nombre y modo de cada ítem, y el valor blob de SHA-1. Si quieres ver el HEAD, usa:
+git ls-tree HEAD
+22.	git cat-file
+se usa para ver la información de tipo y tamaño de un objeto del repositorio. Usa la opción -p junto con el valor SHA-1 del objeto para ver la información de un objeto específico, por ejemplo:
+git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4
+23.	git grep
+le permite al usuario buscar frases y palabras específicas en los árboles de confirmación, el directorio de trabajo y en el área de preparación. Para buscar por www.hostinger.com en todos los archivos, usa:
+git grep “www.hostinger.com”
+24.	gitk 
+muestra la interfaz gráfica para un repositorio local. Simplemente ejecuta:
+gitk
+
+
+
+25.	git instaweb 
+te permite explorar tu repositorio local en la interfaz GitWeb. Por ejemplo:
+git instaweb –http=webrick
+26.	git gc
+ limpiará archivos innecesarios y optimizará el repositorio local.
+git gc
+27.	git archive
+le permite al usuario crear archivos zip o tar que contengan los constituyentes de un solo árbol de repositorio. Por ejemplo:
+git archive - -format=tar master
+28.	git prune 
+elimina los objetos que no tengan ningún apuntador entrante.
+git prune
+29.	git fsck
+realiza una comprobación de integridad del sistema de archivos git e identifica cualquier objeto corrupto
+git fsck
+
+
+•	
+30.	git rebase
+se usa para aplicar ciertos cambios de una rama en otra. Por ejemplo:
+git rebase master

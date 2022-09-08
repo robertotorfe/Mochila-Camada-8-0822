@@ -1,0 +1,15 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+-	Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretación que le de el sistema operativo. Si en la computadora cambia la arquitectura del procesador el lenguaje ensamblador es totalmente diferente y no va a correr.
+Cualquier lenguaje de programación puede usarse en un sistema siempre y cuando haya un intérprete o compilador (segun corresponda al lenguaje en cuestión) si es que deseas programar en esa máquina con ese sistema operativo. Obvio si no hay tal intérprete o compilador no podrás usar ESE, tu lenguaje favorito, en ese sistema. Además, por otro lado, es factible utilizar una técnica llamada cross-compile en donde en una máquina y sistema operativo "X" puedes compilar codigo objeto (lease, binarios ejecutables) para otra máquina o sistema diferente 
+
+
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+- Oracle VM VirtualBox   Es un software de virtualización para arquitecturas x86/amd64, creado originalmente por                 la empresa alemana innotek GmbH. Entre los sistemas operativos soportados (en modo   anfitrión) se encuentran GNU/Linux, Mac OS X, OS/2 Warp, Microsoft Windows, y Solaris/OpenSolaris, y  dentro de ellos es posible virtualizar los sistemas operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS y muchos otros.
+
+¿Qué función cumple el hypervisor en la virtualización?
+Los hipervisores permiten aprovechar mejor los recursos disponibles de un sistema y proporcionan mayor movilidad de TI, puesto que las máquinas virtuales invitadas son independientes del hardware del host. Esto significa que se pueden trasladar fácilmente entre diferentes servidores.
+
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Las máquinas virtuales de procesos se ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación de forma separada. De ese modo, si una de ellas falla, no afectará al funcionamiento del resto. Al crear varias maquinas se genera un respaldo lo que permite que las demás sigan funcionando normal.

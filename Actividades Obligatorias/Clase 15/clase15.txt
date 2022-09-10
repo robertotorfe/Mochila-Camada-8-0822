@@ -1,0 +1,39 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos
+ y en otros no? 
+
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual es 
+ejecutado por el sistema operativo, este lenguaje ensamblador depende de dos cosas, 
+de la arquitectura del procesador y la interpretación que le dé el sistema operativo. 
+Si en la computadora cambia la arquitectura del procesador el lenguaje ensamblador es 
+totalmente diferente y no va a correr. Ahora sí es la misma arquitectura de procesador 
+y diferente sistema operativo, en ocasiones el sistema operativo cambia la definición 
+de la interrupción o el llamado de esta, lo cual hace los ejecutables finales incompatibles 
+entre sistemas operativos.
+
+¿Qué tipo de máquina virtual soporta VirtualBox? 
+
+Entre los sistemas operativos soportados (en modo anfitrión) se encuentran GNU/Linux, Mac OS X,
+OS/2 Warp, Microsoft Windows, y Solaris/OpenSolaris, y dentro de ellos es posible virtualizar
+los sistemas operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS y muchos
+otros.
+
+¿Qué función cumple el hipervisor en la virtualización? Un hipervisor, conocido también como 
+monitor de máquinas virtuales, es un proceso que crea y ejecuta máquinas virtuales. Un 
+hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales 
+invitadas mediante el uso compartido virtual de sus recursos, como la memoria y el 
+procesamiento. Un hipervisor es el monitor de máquina virtual que nos permite trabajar con 
+tecnologías de virtualización, un método rápido, cómodo y seguro para ejecución o pruebas de 
+sistemas operativos, aplicaciones, juegos o emuladores, de manera independiente al sistema 
+principal que actúa como anfitrión. El hipervisor simula un hardware suficiente para 
+permitir un sistema operativo no adaptado que es ejecutado de forma aislada. De esta forma 
+pueden virtualizar VMware Workstation, VMware ESXi, VMware vSphere, Virtualbox, Kernel-based 
+Virtual Machine (KVM). Microsoft Hyper-V, Microsoft Virtual Server, Proxmox VE y Xen. A 
+veces estos sistemas son asistidos por el hardware aprovechando instrucciones incorporadas a 
+las nuevas generaciones de microprocesadores como las VT-x de Intel o AMD-V de AMD para 
+ejecutar el hipervisor en el máximo nivel de acceso a la CPU (Anillo -1) y los invitados se 
+ejecutan a un nivel inferior (Anillo 0). Si tengo más de una máquina virtual instalada, y 
+una se rompe, ¿esto afecta a las demás? ¿por qué? El uso de una máquina virtual a veces es 
+precisamente para llevar a cabo acciones que puedan ser un riesgo, así que NO, al instalar 
+varias máquinas virtuales si una falla las demás permanecen intactas ya que se crean como 
+sistemas completamente independientes y se ejecutan en un espacio cerrado que evita la 
+comunicación directa entre sistemas operativos.

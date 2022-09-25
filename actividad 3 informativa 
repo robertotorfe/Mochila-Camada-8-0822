@@ -1,0 +1,26 @@
+
+1. Por que se puede usar el lenguaje de programacion varia segun el sistema operativo.
+
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, 
+este lenguaje ensamblador depende de 2 cosas, 
+de la arquitectura del procesador y la interpretación que le de el.
+
+2.  Que tipo de MV soporta VirtualBox
+
+Entre los sistemas operativos soportados (en modo anfitrión) se encuentran
+GNU/Linux, Mac OS X, OS/2 Warp, Microsoft Windows, y Solaris/OpenSolaris, y dentro de ellos es posible virtualizar los sistemas operativos
+ FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS y muchos otros.
+
+
+3. Que funcion cumple el supervisor en la virtualizacion
+
+La función Supervisor de rendimiento y capacidad recopila datos de asignación y uso de los recursos de servidores virtualizados.
+Cuando la Hardware Management Console se halla en la versión 8.6.0, o posterior, 
+también puede exportar la métrica de datos que se recopila durante el tiempo especificado.
+
+
+4.
+
+las maquinas virtuales de procesosse ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicacion
+de forma separada. de ese modo, si una falla, no afectara al funcionamiento del resto.
+
